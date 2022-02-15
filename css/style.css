@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #cfb6ec;
+}
+
+#logo {
+  width: 240px;
+  height: 100px;
+  float: left;
+}
+#logoImage{
+  width: 100%;
+  height: 80%;
+  padding: 30px 10px 0px 10px;
+}
+nav {
+width: 900px;
+height: 100px;
+float: right;
+padding-top: 40px;
+}
+#topMenu{
+  height: 60px;
+}
+#topMenu > li {
+  float: left;
+}
+#topMenu > li > a{
+  width: 210px;
+  height: 40px;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  color: #000;
+  padding: 10px 60px 10px;
+  text-shadow: 0 1px #07c;
+  text-align: center;
+}
+#topMenu > li > a:hover {
+  color: blue;
+  text-shadow: 0 -1px #07c;;
+}
+#subMenu {
+  display: none;
+  width: 210px;
+  height: 40px;
+}
+#topMenu > li:hover > ul {
+  display: block;
+}
+#subMenu > li > a {
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  color: #000;
+  padding: 10px 60px 10px;
+  text-shadow: 0 1px #07c;
+  border: 1px solid #000;
+  background-color: antiquewhite;
+}
+ul {
+  list-style: none;
+  float: left;
+}
+#imageShow{
+  clear: both; /* 플로팅 해제 */
+  width: 100%;
+  height: 250px;
+  background-color: black;
+}
+#content {
+  width: 100%;
+  height: 450px;
+  background-color: purple;
+}
+#introduce{
+  width: 70%;
+  height: 75%;
+  background-color: blue;
+  float: left;
+}
+#links{
+  width: 30%;
+  height: 75%;
+  background-color: yellow;
+  float: right;
+}
+#banner{
+  clear: both;
+  width: 100%;
+  height: 25%;
+  background-color: brown;
+}
+#present{
+  width: 100%;
+  height: 600px;
+  background-color: aquamarine;
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: navajowhite;
+  
+}
