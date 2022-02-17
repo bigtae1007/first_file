@@ -6,6 +6,8 @@ let current = 0;
 prev.onclick = prevSlide;
 next.onclick = nextSlide;
 
+let autocurrent = 0;
+autoSlide();
 
 
 function changeSlide(n){
@@ -31,4 +33,16 @@ function nextSlide(){
     current = 0;
   }
   changeSlide(current);
+}
+
+function autoSlide(){  
+let slideBanner = document.querySelectorAll("#slideBanner > img");
+  for(let j = 0 ; j < slideBanner.length ; j ++){
+    slideBanner[j].style.display = "none";
+  }
+  autocurrent++
+  if(autocurrent > slideBanner.length)
+    autocurrent = 1;
+  slideBanner[autocurrent-1].style.display = "block";
+  setTimeout(autoSlide, 2000);
 }
