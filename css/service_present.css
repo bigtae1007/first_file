@@ -82,7 +82,55 @@ ul {
 }
 
 
-
+#content{
+  width: 100%;
+  height: auto;
+}
+#mainpage{
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+}
+.textBox{
+  float: left;
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.textBox > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.textBox > p {
+  padding: 10px 40px;
+  font-weight: bold;
+}
+.image_page{
+  width: 50%;
+  float: right;
+  height: 500px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.image_page > img{
+  border-radius: 30px;
+}
+#selectpage{
+  width: 100%;
+  height: 600px;
+  background-color: skyblue;
+}
+#reserve_page{
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+}
+#partner_page{
+  width: 100%;
+  height: 600px;
+  background-color: skyblue;
+}
 
 footer{
   width: 100%;
